@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		9E07C66B1973E3A300FD3691 /* ThirdTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E07C66A1973E3A300FD3691 /* ThirdTableViewController.swift */; };
 		9E2382FB196D3DC300233F8C /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2382FA196D3DC300233F8C /* image.png */; };
+		9E96096F1977C97700B6D6F0 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E96096E1977C97700B6D6F0 /* FourthViewController.swift */; };
+		9E9609761977DCC900B6D6F0 /* sample_.mov in Resources */ = {isa = PBXBuildFile; fileRef = 9E9609721977DCC900B6D6F0 /* sample_.mov */; };
+		9E9609771977DCC900B6D6F0 /* sample_3GPP2.3g2 in Resources */ = {isa = PBXBuildFile; fileRef = 9E9609731977DCC900B6D6F0 /* sample_3GPP2.3g2 */; };
+		9E9609781977DCC900B6D6F0 /* sample_iTunes.mov in Resources */ = {isa = PBXBuildFile; fileRef = 9E9609741977DCC900B6D6F0 /* sample_iTunes.mov */; };
+		9E9609791977DCC900B6D6F0 /* sample_mpeg4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9E9609751977DCC900B6D6F0 /* sample_mpeg4.mp4 */; };
 		9E98B8F8196BCBD400EFD458 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98B8F7196BCBD400EFD458 /* AppDelegate.swift */; };
 		9E98B8FA196BCBD400EFD458 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98B8F9196BCBD400EFD458 /* ViewController.swift */; };
 		9E98B8FD196BCBD400EFD458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E98B8FB196BCBD400EFD458 /* Main.storyboard */; };
@@ -16,6 +21,7 @@
 		9E98B90B196BCBD400EFD458 /* NSBasicSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98B90A196BCBD400EFD458 /* NSBasicSwiftTests.swift */; };
 		9E98B915196BCCC500EFD458 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98B914196BCCC500EFD458 /* FirstViewController.swift */; };
 		9E98B917196BCCD700EFD458 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98B916196BCCD700EFD458 /* SecondTableViewController.swift */; };
+		9ECDF39E1978F82200538540 /* AirPlaybtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECDF39D1978F82200538540 /* AirPlaybtn.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +37,11 @@
 /* Begin PBXFileReference section */
 		9E07C66A1973E3A300FD3691 /* ThirdTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdTableViewController.swift; sourceTree = "<group>"; };
 		9E2382FA196D3DC300233F8C /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		9E96096E1977C97700B6D6F0 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		9E9609721977DCC900B6D6F0 /* sample_.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = sample_.mov; sourceTree = "<group>"; };
+		9E9609731977DCC900B6D6F0 /* sample_3GPP2.3g2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample_3GPP2.3g2; sourceTree = "<group>"; };
+		9E9609741977DCC900B6D6F0 /* sample_iTunes.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = sample_iTunes.mov; sourceTree = "<group>"; };
+		9E9609751977DCC900B6D6F0 /* sample_mpeg4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample_mpeg4.mp4; sourceTree = "<group>"; };
 		9E98B8F2196BCBD400EFD458 /* NSBasicSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSBasicSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E98B8F6196BCBD400EFD458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E98B8F7196BCBD400EFD458 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +53,7 @@
 		9E98B90A196BCBD400EFD458 /* NSBasicSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSBasicSwiftTests.swift; sourceTree = "<group>"; };
 		9E98B914196BCCC500EFD458 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		9E98B916196BCCD700EFD458 /* SecondTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
+		9ECDF39D1978F82200538540 /* AirPlaybtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AirPlaybtn.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +100,7 @@
 				9E98B914196BCCC500EFD458 /* FirstViewController.swift */,
 				9E98B916196BCCD700EFD458 /* SecondTableViewController.swift */,
 				9E07C66A1973E3A300FD3691 /* ThirdTableViewController.swift */,
+				9E96096E1977C97700B6D6F0 /* FourthViewController.swift */,
 				9E98B8FB196BCBD400EFD458 /* Main.storyboard */,
 				9E98B8FE196BCBD400EFD458 /* Images.xcassets */,
 				9E98B8F5196BCBD400EFD458 /* Supporting Files */,
@@ -98,6 +111,11 @@
 		9E98B8F5196BCBD400EFD458 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9E9609721977DCC900B6D6F0 /* sample_.mov */,
+				9E9609731977DCC900B6D6F0 /* sample_3GPP2.3g2 */,
+				9E9609741977DCC900B6D6F0 /* sample_iTunes.mov */,
+				9E9609751977DCC900B6D6F0 /* sample_mpeg4.mp4 */,
+				9ECDF39D1978F82200538540 /* AirPlaybtn.png */,
 				9E2382FA196D3DC300233F8C /* image.png */,
 				9E98B8F6196BCBD400EFD458 /* Info.plist */,
 			);
@@ -201,9 +219,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E9609771977DCC900B6D6F0 /* sample_3GPP2.3g2 in Resources */,
+				9E9609761977DCC900B6D6F0 /* sample_.mov in Resources */,
+				9E9609781977DCC900B6D6F0 /* sample_iTunes.mov in Resources */,
+				9E9609791977DCC900B6D6F0 /* sample_mpeg4.mp4 in Resources */,
 				9E98B8FD196BCBD400EFD458 /* Main.storyboard in Resources */,
 				9E98B8FF196BCBD400EFD458 /* Images.xcassets in Resources */,
 				9E2382FB196D3DC300233F8C /* image.png in Resources */,
+				9ECDF39E1978F82200538540 /* AirPlaybtn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E96096F1977C97700B6D6F0 /* FourthViewController.swift in Sources */,
 				9E98B915196BCCC500EFD458 /* FirstViewController.swift in Sources */,
 				9E98B917196BCCD700EFD458 /* SecondTableViewController.swift in Sources */,
 				9E98B8FA196BCBD400EFD458 /* ViewController.swift in Sources */,
