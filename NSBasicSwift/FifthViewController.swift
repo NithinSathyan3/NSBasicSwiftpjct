@@ -75,6 +75,18 @@ class FifthViewController: UIViewController {
     @IBAction func sharetextButtonAction(sender: AnyObject) {
         self.loadingIndicator.startAnimating()
         call_activityView([self .fileToURL(".txt") as NSURL] as NSArray)
+        
+        // to share text file content ..
+    /*
+        var reulttext: NSString = NSString .stringWithContentsOfURL(self .fileToURL(".txt") as NSURL, encoding: NSUTF8StringEncoding, error: nil) as String
+        let objectsToShare : NSArray = [reulttext]
+        
+        let activityViewController  = UIActivityViewController(activityItems:objectsToShare,applicationActivities: nil)
+        self.navigationController.presentViewController(activityViewController,animated: true,completion: {
+        self.loadingIndicator.stopAnimating()
+        })
+    */
+        
     }
     
     func fileToURLRequest(filename: String) -> NSURLRequest {
