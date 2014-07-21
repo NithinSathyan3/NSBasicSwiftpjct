@@ -9,23 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-                            
+    
     @IBOutlet var apiButton: UIButton
     @IBOutlet var plistButton: UIButton
     @IBOutlet var textButton: UIButton
     @IBOutlet var videoPlayerButton: UIButton
+    @IBOutlet var airdropButton: UIButton
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-     
+        
         apiButton.layer.cornerRadius    = 15
         plistButton.layer.cornerRadius  = 15
         textButton.layer.cornerRadius   = 15
         videoPlayerButton.layer.cornerRadius   = 15
-    
+        airdropButton.layer.cornerRadius   = 15
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -36,13 +37,13 @@ class ViewController: UIViewController {
         
         println(" playButtonpress ")
         
-      //  NSURL *movieURL = [NSURL URLWithString:@"http://example.com/somefile.mp4"];
-       // movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
-       // [self presentMoviePlayerViewControllerAnimated:movieController];
+        //  NSURL *movieURL = [NSURL URLWithString:@"http://example.com/somefile.mp4"];
+        // movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+        // [self presentMoviePlayerViewControllerAnimated:movieController];
         //[movieController.moviePlayer play];
-      
-        
     }
     
+    @IBAction func airdropButtonAction(sender: AnyObject) {
+    }
 }
 

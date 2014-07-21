@@ -13,7 +13,7 @@ import AVFoundation
 
 class FourthViewController: UIViewController  {
     
-    @IBOutlet var airplayButton: UIButton
+    @IBOutlet var  playButton: UIButton
     
     var playerItem:AVPlayerItem = AVPlayerItem()
     var playerView:UIView  = UIView()
@@ -25,6 +25,8 @@ class FourthViewController: UIViewController  {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        playButton.layer.cornerRadius = playButton.frame.size.width/2
+        
         // playing with MPMoviePlayerController
         nsPlayer = MPMoviePlayerController(contentURL: videoURL)
         nsPlayer.movieSourceType = MPMovieSourceType.Streaming
@@ -34,7 +36,6 @@ class FourthViewController: UIViewController  {
         nsPlayer.view.frame = CGRectMake(10, 70, 300, 170)
         self.view.addSubview(nsPlayer.view)
         nsPlayer.play()
-       
      }
    
     // playing with AVPlayer
@@ -51,9 +52,7 @@ class FourthViewController: UIViewController  {
         self.view .addSubview(self.playerView);
         videoPlayer.play();
         
-//        var mpv : MPVolumeView = MPVolumeView()
-//        mpv.volumeSliderRectForBounds(CGRectMake(0, 0, 280, 30))
-//        mpv.layer.cornerRadius = 15
+ 
         
     }
 
@@ -64,7 +63,7 @@ class FourthViewController: UIViewController  {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func airplayButtonAction(sender: AnyObject) {
+    @IBAction func  playButtonAction(sender: AnyObject) {
          createPlayer()
     }
 }

@@ -40,8 +40,6 @@ class FirstViewController: UIViewController {
         }
         //UIButton Shape.
         saveButton.layer.cornerRadius    = 15
-
-        
     }
     
     override func didReceiveMemoryWarning() {
